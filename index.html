@@ -1,23 +1,39 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>English Dictionary</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Scrollbar</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1 class="heading">English Dictionary</h1>
-      <input placeholder="Search a word" type="text" class="input" id="input" />
-      <p class="info-text" id="info-text">Type a word and press enter</p>
-      <div class="meaning-container" id="meaning-container">
-        <p>Word Title: <span class="title" id="title">___</span></p>
-        <p>Meaning: <span class="meaning" id="meaning">___</span></p>
-        <audio class="audio" src="" controls id="audio"></audio>
+    <section class="scroll-container">
+      <div class="scroll-div">
+        <div class="scroll-object">
+          TypeScript — язык программирования, представленный Microsoft в 2012 году и 
+          позиционируемый как средство разработки веб-приложений, расширяющее возможности 
+          JavaScript. Разработчиком языка TypeScript является Андерс Хейлсберг, создавший 
+          ранее Turbo Pascal, Delphi и C#. Спецификации языка открыты и опубликованы в 
+          рамках соглашения Open Web Foundation Specification Agreement (OWFa 1.0).
+          TypeScript является обратно совместимым с JavaScript и компилируется в последний. 
+          Фактически, после компиляции программу на TypeScript можно выполнять в любом 
+          современном браузере или использовать совместно с серверной платформой Node.js. 
+          Код экспериментального компилятора, транслирующего TypeScript в JavaScript, 
+          распространяется под лицензией Apache. Его разработка ведётся в публичном 
+          репозитории через сервис GitHub. TypeScript отличается от JavaScript возможностью 
+          явного статического назначения типов, поддержкой использования полноценных классов 
+          (как в традиционных объектно-ориентированных языках), а также поддержкой подключения 
+          модулей, что призвано повысить скорость разработки, облегчить читаемость, рефакторинг 
+          и повторное использование кода, помочь осуществлять поиск ошибок на этапе разработки 
+          и компиляции, и, возможно, ускорить выполнение программ. Планируется, что в силу 
+          полной обратной совместимости адаптация существующих приложений на новый язык 
+          программирования может происходить поэтапно, путём постепенного определения типов.
+          На момент релиза представлены файлы для восприятия расширенного синтаксиса TypeScript 
+          для Vim и Emacs, а также плагин для Microsoft Visual Studio. Одновременно с выходом 
+          спецификации разработчики подготовили файлы с декларациями статических типов для 
+          некоторых популярных JavaScript-библиотек, среди которых jQuery.
+        </div>
       </div>
-    </div>
-    <script src="index.js"></script>
+    </section>
   </body>
 </html>

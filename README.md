@@ -1,12 +1,12 @@
 
-[![Обложка к видео «English-dictionary»](./images/img.png)](https://youtu.be/lyA5jCLgg8c)
+[![Обложка к видео «Scrollbar»](./images/img.png)](https://youtu.be/ENAPMpi8t2c)
 
 
 
-# English dictionary
+# Scrollbar
 
 
-Словарь с объяснением значения слов + примером их произношения с помощью Java Script.
+Полоса прокрутки с помощью HTML & CSS.
 
 
 P.S.: Нажми на картинку, чтобы посмотреть видео.
