@@ -1,5 +1,5 @@
 
-[![Обложка к видео «English-dictionary»](./src/images/img.png)](https://youtu.be/lyA5jCLgg8c)
+[![Обложка к видео «English-dictionary»](./images/img.png)](https://youtu.be/lyA5jCLgg8c)
 
 
 
